@@ -1,6 +1,11 @@
 # PC Book - Go
 
+
 This repository contains the Golang codes for the hands-on section of [The complete gRPC course](http://bit.ly/grpccourse) by [TECH SCHOOL](https://dev.to/techschoolguru).
+
+# buf generate
+buf generate  
+https://docs.buf.build/introduction
 
 ![The complete gRPC course](https://dev-to-uploads.s3.amazonaws.com/i/11r59di6zlyxf6g8o4s9.png)
 
