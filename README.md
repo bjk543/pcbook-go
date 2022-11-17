@@ -3,9 +3,22 @@
 
 This repository contains the Golang codes for the hands-on section of [The complete gRPC course](http://bit.ly/grpccourse) by [TECH SCHOOL](https://dev.to/techschoolguru).
 
-# buf generate
+## buf generate
 buf generate  
+buf lint  
 https://docs.buf.build/introduction
+
+## docker
+docker run \
+  --volume `pwd`:/workspace \
+  --workdir /workspace \
+  bufbuild/buf generate
+
+### https://github.com/mfycheng/protoc-gen-go/blob/master/generate.sh
+docker run -v api:/proto -v genproto:/genproto mfycheng/protoc-gen-go
+docker run -v `pwd`:/workspace  --workdir /workspace mfycheng/protoc-gen-go
+
+docker run --rm -v `pwd`:/workspace bufbuild/buf generate
 
 ![The complete gRPC course](https://dev-to-uploads.s3.amazonaws.com/i/11r59di6zlyxf6g8o4s9.png)
 
